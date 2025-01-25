@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+           <h1>Certifications & Online programs</h1>
+    </section>
+    <!-- Blog content -->
+     <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="">
+          <h2>Certifications & Online programs</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia facilis, excepturi expedita voluptatibus nobis molestiae culpa, id quas at optio unde eum blanditiis iure placeat voluptate fugit? Quibusdam, aliquam quia.
+          Amet ea facilis illum molestiae corporis suscipit quos nostrum quibusdam ullam fugiat sapiente accusantium maxime, dolorum harum quaerat, quas dolores autem ut sint unde, deleniti dolorem recusandae? Cumque, veritatis aperiam!
+          Rem quam veritatis deserunt? Error modi debitis laudantium nihil iste in quibusdam incidunt ducimus, rem recusandae quidem. Tempore, itaque porro, possimus unde obcaecati reiciendis doloremque nesciunt fugiat facilis officiis labore!
+          Quod nulla dolorum, tempora nemo, tenetur eveniet voluptatibus laboriosam quae corporis adipisci in ex cupiditate eum magnam laudantium! Tempora magnam accusantium ipsam harum cupiditate odio impedit atque qui a ipsa.
+          Consequatur facere possimus similique repellat, ipsa eum veritatis blanditiis ullam molestiae nemo temporibus mollitia sequi quam tempore natus tempora, beatae cum. Ex voluptatibus voluptas ea, iste labore quae illo deleniti.
+          Non qui exercitationem delectus dolor doloremque magni eos enim perspiciatis accusantium dolorum facilis, atque at animi libero obcaecati maxime quae doloribus iste repellendus possimus similique, quisquam aliquid! Impedit, accusamus reiciendis!
+        <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minima ratione corrupti quia, repellat rem architecto cupiditate sint. Numquam magni voluptate molestias, totam dolorem quam doloremque esse sapiente distinctio? Harum!
+        Omnis atque quia incidunt pariatur, doloremque accusamus quaerat. Dolorem accusamus, sed voluptatibus dolorum libero repudiandae eum illum saepe dolores? Pariatur, non deleniti. Recusandae natus soluta culpa eos nulla alias neque.
+        Deserunt eveniet, corrupti placeat fugiat eius aliquid! Laborum ut facere iusto saepe laboriosam alias tempore error. Nesciunt accusamus ex aperiam nulla commodi laborum. Autem eaque ipsam iure accusantium, magni iusto!
+        Corporis deleniti, optio nostrum quidem similique consectetur! Minus aspernatur ea inventore nemo quia, commodi laboriosam, deserunt eligendi expedita qui itaque aliquam ab officia soluta consectetur eius pariatur ipsa repudiandae provident?
+        Unde enim neque, delectus consequuntur earum eaque officia natus accusamus eum mollitia doloribus labore corrupti? Necessitatibus ducimus obcaecati doloremque ratione doloribus a dolor architecto nulla voluptas laudantium. Maiores, consectetur fuga.</p>
+        <div class="comment-box">
+          <h3>Leave a Comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter email">
+            <textarea rows="5" placeholder="Comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">Post Your Comment</button>
+          </form>
+
+        </div>
+      
+        </div>
+
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Technology</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>Education</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Health</span>
+            <span>23</span>
+          </div>
+          <div>
+            <span>Management</span>
+            <span>27</span>
+          </div>
+        </div>
+      </div>
+     </section>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+      <div class="icons">
+          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <p>Made by Harish</p>
+      </div>
+</section>
+
+   <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+</body>
+</html>
